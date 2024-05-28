@@ -1,3 +1,9 @@
 # Table of contents
 
-* [Test](README.md)
+* [Home](README.md)
+* [Coverage](coverage.md)
+
+## Setup
+
+* [Dependencies](setup/dependencies.md)
+* [Basic Plugin](setup/basic-plugin.md)
