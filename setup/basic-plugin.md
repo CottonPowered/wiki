@@ -14,13 +14,15 @@ After you created your Java project, open the `resources` folder and create a ne
 
 In this file you will need to specify all needed things for your plugin to start:
 
-* Name
-* Authors
-* Version
-* Namespace
-* Target Minecraft Version
-* API Version
-* Main Class Path
+* Name<mark style="color:red;">\*</mark>
+* Authors<mark style="color:red;">\*</mark>
+* Version<mark style="color:red;">\*</mark>
+* Namespace<mark style="color:red;">\*</mark>
+* Target Minecraft Version<mark style="color:red;">\*</mark>
+* API Version<mark style="color:red;">\*</mark>
+* Main Class Path<mark style="color:red;">\*</mark>
+
+Things tagged with <mark style="color:red;">\*</mark> are required
 
 Here's a working example of a `cotton-plugin.toml` file
 
@@ -55,7 +57,7 @@ main = "com.example.plugin.ExamplePlugin"
 
 ### Initialization class
 
-This is where you specified the path to in your `cotton-plugin.toml` file. Here's a correct example:
+This is where the specified path in your `cotton-plugin.toml` file leads to. Here's a working example:
 
 ```java
 package com.example.plugin;
@@ -77,4 +79,6 @@ public class ExamplePlugin extends CottonPlugin {
 }
 ```
 
-The `onInitialize` method will be run once when the plugin starts (e.g. when the server starts) and `onTerminate` when the plugin stops (e.g. when the server stops). You can access the plugin info file through code by using `getPluginInfoFile` in your main class.
+The `onInitialize` method will run when the plugin loads up (e.g. when the server starts) and `onTerminate` when the plugin gets terminated (e.g. when the server stops). You can access the plugin info file through code by using `getPluginInfoFile` in your main class.
+
+It is recommended to set a namespace variable which is the same as in your plugin info file. Learn more [here](../feature/plugin-info-file.md)
