@@ -1,6 +1,6 @@
 # PlayerChatEvent
 
-Triggers when a player sends a chat message.
+Triggers when a player sends a chat message. Cancellable.
 
 | Method       | Description                 | Returns       |
 | ------------ | --------------------------- | ------------- |
