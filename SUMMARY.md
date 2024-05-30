@@ -16,4 +16,5 @@
   * [All Events](feature/events/all-events/README.md)
     * [PlayerJoinEvent](feature/events/all-events/playerjoinevent.md)
     * [PlayerDisconnectEvent](feature/events/all-events/playerdisconnectevent.md)
+    * [PlayerChatEvent](feature/events/all-events/playerchatevent.md)
 * [Plugin Info File](feature/plugin-info-file.md)
