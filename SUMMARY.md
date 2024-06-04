@@ -10,6 +10,7 @@
 
 ## Feature
 
+* [Plugin Info File](feature/plugin-info-file.md)
 * [Events](feature/events/README.md)
   * [Listening](feature/events/listening.md)
   * [Custom Events](feature/events/custom-events.md)
@@ -18,4 +19,7 @@
     * [PlayerDisconnectEvent](feature/events/all-events/playerdisconnectevent.md)
     * [PlayerChatEvent](feature/events/all-events/playerchatevent.md)
     * [PlayerPreLoginEvent](feature/events/all-events/playerpreloginevent.md)
-* [Plugin Info File](feature/plugin-info-file.md)
+* [ItemStack](feature/itemstack.md)
+* [Inventories](feature/inventories.md)
+* [Configurations](feature/configurations.md)
+* [Identifiers](feature/identifiers.md)
