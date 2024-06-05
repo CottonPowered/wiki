@@ -24,7 +24,7 @@ description: Describes how to install the Cotton API dependency into your projec
     <dependency>
         <groupId>net.snackbag.cottonpowered</groupId>
         <artifactId>api</artifactId>
-        <version>0.1.0+mc1.20.1</version>
+        <version>0.2.2+mc1.20.1</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
